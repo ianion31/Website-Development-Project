@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Places — Rayyan Aura Rahman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="brand">Rayyan Aura Rahman</a>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="slideMenu">
+        Menu <span class="menu-icon"></span>
+      </button>
+    </div>
+    <nav id="slideMenu" class="slide-menu">
+        <div class="slide-menu-inner">
+          <a href="index.html">Home <span class="arrow"></span></a>
+          <a href="profile.html">Profile <span class="arrow"></span></a>
+          <a href="hometown.html">Hometown <span class="arrow"></span></a>
+          <a href="local_food.html">Local Food <span class="arrow"></span></a>
+          <a href="tourist_places.html">Tourist Places <span class="arrow"></span></a>
+        </div>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <div class="page-header">
+      <h1>Tourist Places</h1>
+      <p>Explore the most breathtaking destinations and must-visit landmarks.</p>
+    </div>
+
+    <section class="section">
+      <div class="projects-grid">
+
+        <article class="project-card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('unnamed.jpg');">
+          <div class="card-content">
+            <h3>Putri Nglirip Waterfall</h3>
+            <p>Putri Nglirip Waterfall is a natural tourist icon of Tuban, famous for the beauty of its turquoise-green water. 
+              Located in Singgahan Subdistrict, this destination is very popular among tourists who want to enjoy the cool, rural atmosphere surrounded by lush trees along the waterfall’s stream.</p>
+            <a href="https://www.detik.com/jatim/wisata/d-8291308/air-terjun-nglirip-tuban-eksotisme-alam-dan-kisah-putri-yang-melegenda">View details →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('unnamed (1).jpg');">
+          <div class="card-content">
+            <h3>Boom Beach</h3>
+            <p>Boom Beach is a legendary stretch of coastline strategically located near Tuban’s Town Square. 
+              This beach is not merely a natural recreational destination; it also has a rich historical significance, as it was once a vital ancient port.</p>
+            <a href="https://tubankab.go.id/entry/pantai-boom-tuban-1">View details →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('unnamed (2).jpg');">
+          <div class="card-content">
+            <h3>Kelapa Tuban Beach</h3>
+            <p>If you’re looking for a shady coastal setting, Kelapa Tuban Beach is the perfect choice and has been a popular destination lately. 
+              Unlike the typically scorching heat of Java’s northern coast, this spot offers a very shaded recreational area thanks to the thousands of coconut and palm trees planted in rows along the shoreline.</p>
+            <a href="https://www.pantaikelapa.com/">View details →</a>
+          </div>
+        </article>
+
+        <article class="project-card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('unnamed (3).jpg');">
+          <div class="card-content">
+            <h3>Akbar Cave</h3>
+            <p>Another natural attraction that Tuban is proud of is Akbar Cave, a natural masterpiece with a rather unique location—it lies directly beneath the hustle and bustle of the city’s market and residential areas. 
+              This massive cave is renowned for the beauty of its magnificent stalactite and stalagmite formations.</p>
+            <a href="https://travels.id/harga-tiket-masuk-goa-akbar-tuban/">View details →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <span>&copy; <span id="year"></span> Rayyan Aura Rahman</span>
+    <span>
+      <a href="mailto:rayyanaurarahman@gmail.com">rayyanaurarahman@gmail.com</a>
+    </span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script >document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

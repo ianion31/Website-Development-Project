@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Food — Rayyan Aura Rahman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="brand">Rayyan Aura Rahman</a>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="slideMenu">
+        Menu <span class="menu-icon"></span>
+      </button>
+    </div>
+    <nav id="slideMenu" class="slide-menu">
+      <div class="slide-menu-inner">
+        <a href="index.html">Home <span class="arrow"></span></a>
+        <a href="profile.html">Profile <span class="arrow"></span></a>
+        <a href="hometown.html">Hometown <span class="arrow"></span></a>
+        <a href="local_food.html">Local Food <span class="arrow"></span></a>
+        <a href="tourist_places.html">Tourist Places <span class="arrow"></span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <div class="page-header">
+      <h1>Local Food</h1>
+      <p>Discover the authentic tastes and hidden culinary gems of my region.</p>
+    </div>
+
+    <section class="section">
+      <div class="blog-list">
+
+        <article class="blog-item">
+          <div class="resume-entry" style="display: flex; flex-direction: row; gap: 30px; align-items: flex-start;">
+            <img src="OIP.webp" alt="Kari Rajungan" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+            <div style="display: flex; flex-direction: column;">
+              <h2 style="margin-top: 0;">Kari Rajungan</h2>
+              <p>As a coastal region, seafood is the star of the show in Tuban, and Kari Rajungan is its culinary masterpiece. 
+                Rajungan (a type of crab) is cooked in a reddish-yellow coconut milk broth that is very thick and rich in spices. 
+                The main characteristic of this dish is its intensely spicy and savory flavor. 
+                Kari rajungan is best enjoyed with a serving of warm white rice or corn rice.</p>
+              <a href="https://id.wikipedia.org/wiki/Kare_rajungan" style="align-self: flex-start;">Read more →</a>
+            </div>
+    
+          </div>
+        </article>
+
+        <article class="blog-item">
+          <div class="resume-entry" style="display: flex; flex-direction: row; gap: 30px; align-items: flex-start;">
+            <img src="OIP (1).webp" alt="Becek Menthok" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+            <div style="display: flex; flex-direction: column;">
+              <h2 style="margin-top: 0;">Becek Menthok</h2>
+              <p>Becek menthok is a dish with a thick, rich broth similar to gulai or curry, but it uses menthok meat (serati duck, a type of duck) as its main ingredient. 
+                Menthok meat, which is typically known for being tough, is prepared in such a way that its texture becomes very tender and completely free of any fishy odor. 
+                The “becek” sauce combines coconut milk with strong spices such as coriander and cumin, resulting in a blend of savory, fresh, and—of course—spicy flavors.</p>
+              <a href="https://travelzola.id/becek-menthok-kuliner-gurih-khas-tuban-yang-bikin-susah-berhenti-makan/" style="align-self: flex-start;">Read more →</a>
+            </div>
+    
+          </div>
+        </article>
+
+        <article class="blog-item">
+          <div class="resume-entry" style="display: flex; flex-direction: row; gap: 30px; align-items: flex-start;">
+            <img src="OIP (2).webp" alt="Rica-Rica Belut" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+            <div style="display: flex; flex-direction: column;">
+              <h2 style="margin-top: 0;">Rica-Rica Belut</h2>
+              <p>In addition to its seafood, Tuban is also very famous for its rice paddy eel dishes. 
+                Tuban’s signature spicy eel—or “rica-rica belut”—is cooked with an abundance of spices and bird’s eye chili peppers, creating an extremely spicy sensation that explodes in your mouth. 
+                This dish is typically served with fresh corn rice (sego empok). 
+                The combination of the corn’s natural sweetness with the savory spiciness of the eel creates a truly authentic rustic flavor.</p>
+              <a href="https://sites.google.com/view/rica-rica-belut/halaman-muka" style="align-self: flex-start;">Read more →</a>
+            </div>
+    
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <span>&copy; <span id="year"></span> Rayyan Aura Rahman</span>
+    <span>
+      <a href="mailto:rayyanaurarahman@gmail.com">rayyanaurarahman@gmail.com</a> 
+    </span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script >document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+
+</html>
